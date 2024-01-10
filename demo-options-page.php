@@ -44,7 +44,7 @@ function wp_and_js_demo_options_page_html()
         
         <p><?php _e('This is a demo page to show how to use JS in WordPress.', 'wp-and-js-demo'); ?></p>
 
-        <?php add_thickbox(); ?>
+        
 
         <!-- thickbox container -->
         <div id="wp-and-js-demo-thickbox" style="display:none;">
@@ -58,6 +58,11 @@ function wp_and_js_demo_options_page_html()
             <button id="wp-and-js-demo-button" class="button">
                 <?php _e('Click Me', 'wp-and-js-demo'); ?>
             </button>
+        </p>
+
+        <!-- greeting-component -->
+        <p>
+            <greeting-component></greeting-component>
         </p>
 
         <!-- <form action="options.php" method="post">
