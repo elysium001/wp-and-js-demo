@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "title": "Simple Block",
+  "name": "wp-and-js-demo/simple-block",
+  "keywords": [
+    "simple"
+  ],
+  "version": "0.1.1",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "A simple block.",
+  "textdomain": "simple-block",
+  "editorScript": "file:./simple-block.js"
+}

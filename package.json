@@ -1,0 +1,21 @@
+{
+  "name": "wp-and-js-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "wp-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elysium001/wp-and-js-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elysium001/wp-and-js-demo/issues"
+  },
+  "homepage": "https://github.com/elysium001/wp-and-js-demo#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.19.0"
+  }
+}
