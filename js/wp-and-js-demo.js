@@ -9,4 +9,6 @@ jQuery(document).ready(function($) {
     });
 
     console.log('wp-and-js-demo.js loaded');
+
+    console.log(wp_and_js_demo);
 });
